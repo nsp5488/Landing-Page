@@ -1,0 +1,158 @@
+* {
+    /* outline: solid red 2px; */
+    font-family: Roboto, sans-serif;
+}
+body {
+    margin: 0;
+}
+.header {
+    background-color: #1f2937;
+}
+.header > div {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.headerSecondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.headerSecondary > a {
+    margin-left: 16px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.right {
+    margin-left: auto;
+}
+.hero {
+    display: flex;
+    padding-bottom: 5%;
+}
+.heroText > h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.heroText > p {
+    margin-top: 4px;
+    margin-right: 16px;
+}
+
+.heroText > button {
+    margin-top: 4px;
+    font-family: Roboto, sans-serif;
+    background-color: #3882f6;
+    padding: 4px 16px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.information {
+    margin: 16px 16px;
+}
+.information > div {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#infoText {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+#infoText > h2 {
+    font-size: 36px;
+    color: #1f2937;
+    weight: 900;
+}
+#infoImages {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.imageItem {
+    width: 240;
+    height: 240;
+    display: flex;
+    flex-flow: column;
+}
+.imageItem > img {
+    border-radius: 5px;
+}
+.imageItem > p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+#quoteContainer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+.quoteContainer > #quoteBody {
+    font-size: 36px;
+    color: #1f2937;
+}
+.callToAction {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.card {
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+.cardText {
+    margin-right: auto;
+    margin-left: 10%;
+}
+.cardText > h2 {
+    margin-bottom: 0;
+    color: #f9faf8;
+}
+.cardText > p {
+    margin-top: 4px;
+    color: #e5e7eb;
+}
+.cardBtn {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10%;
+}
+.cardBtn > button {
+    background-color: #3882f6;
+    outline: solid white 2px;
+    border: none;
+    color: #f9faf8;
+    font-family: Roboto, sans-serif;
+    padding: 4px 16px;
+    border-radius: 5px;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #e5e7eb;
+}
